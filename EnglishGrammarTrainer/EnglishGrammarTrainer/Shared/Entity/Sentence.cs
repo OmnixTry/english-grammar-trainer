@@ -1,4 +1,5 @@
 ﻿using EnglishGrammarTrainer.Shared.Enum;
+using EnglishGrammarTrainer.Shared.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +18,9 @@ namespace EnglishGrammarTrainer.Shared.Entity
             SentenceParts = new Dictionary<SentenceParts, List<Structure>>();
         }
 
-        
+        protected virtual Structure[] GenerateParts(params PartOfSpeach[] partsOfSpeach)
+        {
+            return partsOfSpeach.SelectArray(x => new Structure() { Tag = x });
+        }
     }
 }

@@ -10,5 +10,7 @@ namespace EnglishGrammarTrainer.Shared.Contract
     public interface IStructure
     {
         PartOfSpeach Tag { get; set;  }
+
+        bool DoesFit(IStructure structure);
     }
 }

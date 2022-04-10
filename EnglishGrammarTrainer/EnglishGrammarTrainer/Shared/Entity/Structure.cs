@@ -13,9 +13,19 @@ namespace EnglishGrammarTrainer.Shared.Entity
     {
         public PartOfSpeach Tag { get; set; }
 
+        public Structure(PartOfSpeach partOfSpeach)
+        {
+            Tag = partOfSpeach;
+        }
+
         public virtual string DisplayText()
         {
             return '<' + Tag.Name() + '>';
+        }
+
+        public virtual bool DoesFit(IStructure structure)
+        {
+            return Tag == structure.Tag;
         }
     }
 }
