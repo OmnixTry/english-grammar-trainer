@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishGrammarTrainer", "EnglishGrammarTrainer\EnglishGrammarTrainer.csproj", "{0072E6C6-BBD1-407A-8D9A-898311755853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grammar Descriptor", "Grammar Descriptor\Grammar Descriptor.csproj", "{587E6461-1663-4C75-886C-99D75E460DD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0072E6C6-BBD1-407A-8D9A-898311755853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0072E6C6-BBD1-407A-8D9A-898311755853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0072E6C6-BBD1-407A-8D9A-898311755853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0072E6C6-BBD1-407A-8D9A-898311755853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587E6461-1663-4C75-886C-99D75E460DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587E6461-1663-4C75-886C-99D75E460DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587E6461-1663-4C75-886C-99D75E460DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587E6461-1663-4C75-886C-99D75E460DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E0BE771-36E1-4D46-9F5A-F32C23426626}
+	EndGlobalSection
+EndGlobal
